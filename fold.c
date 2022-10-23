@@ -60,9 +60,6 @@ int fold(char out1[], char in[], int len)
             if(blankSpot > (foldpoint - 10))
             {
                 out1[blankSpot + extendo] = '\n';
-
-                i = blankSpot;
-                l = blankSpot + extendo;
                 foldpoint = blankSpot + 1;
             }
 
